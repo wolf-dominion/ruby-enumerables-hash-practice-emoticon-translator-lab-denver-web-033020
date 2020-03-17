@@ -21,6 +21,10 @@ def get_japanese_emoticon(emoticonsFile, eEmoticon)
   sortedFile = load_library(emoticonsFile)
   
   sortedFile['get_emoticon'][eEmoticon]
+  
+  if !sortedFile['get_emoticon'][eEmoticon]
+    return "Sorry, none"
+  end
 
 end
 
