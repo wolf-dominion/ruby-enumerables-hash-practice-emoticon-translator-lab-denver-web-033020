@@ -10,9 +10,6 @@ def load_library(emoticonsFile)
   
   emoticonsSorted = {'get_meaning' => {}, 'get_emoticon' => {}}
   
-  library.each do |english, emoHash|
-    
-  end
 
 end
 
