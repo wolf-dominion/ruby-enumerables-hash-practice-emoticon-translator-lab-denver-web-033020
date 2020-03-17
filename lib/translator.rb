@@ -29,4 +29,6 @@ end
 
 def get_english_meaning(emoticonsFile, jEmoticon)
   
+  
+  
 end
