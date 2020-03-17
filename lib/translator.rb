@@ -10,12 +10,6 @@ def load_library(emoticonsFile)
   
   pp emoticonsSorted['get_meaning']
   
-    library.each do |english, emoHash|
-       
-          emoticonsSorted['get_meaning'][emoHash[1]] = english
-       
-          emoticonsSorted['get_emoticon'][emoHash[0]] = emoHash[1]
-    end
 
   
 end
