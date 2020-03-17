@@ -20,12 +20,12 @@ def get_japanese_emoticon(emoticonsFile, eEmoticon)
   
   sortedFile = load_library(emoticonsFile)
   
-  sortedFile['get_emoticon'][eEmoticon]
-  
   if !sortedFile['get_emoticon'][eEmoticon]
     return "Sorry, that emoticon was not found"
   end
-
+  
+  sortedFile['get_emoticon'][eEmoticon]
+  
 end
 
 def get_english_meaning(emoticonsFile, jEmoticon)
