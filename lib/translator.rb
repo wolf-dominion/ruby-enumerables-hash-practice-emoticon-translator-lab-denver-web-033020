@@ -31,8 +31,6 @@ def get_english_meaning(emoticonsFile, jEmoticon)
   
   sortedFile = load_library(emoticonsFile)
   
-  pp sortedFile
-  
   if !sortedFile['get_emoticon'][jEmoticon]
     return "Sorry, that emoticon was not found"
   end
