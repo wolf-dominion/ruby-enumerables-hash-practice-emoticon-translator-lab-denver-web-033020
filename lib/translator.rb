@@ -5,10 +5,7 @@ require 'pp'
 def load_library(emoticonsFile)
   
   library = YAML.load_file('emoticonsFile.yml')
-  
-end
-  
-  return emoticonHash
+
 end
 
 def get_japanese_emoticon
