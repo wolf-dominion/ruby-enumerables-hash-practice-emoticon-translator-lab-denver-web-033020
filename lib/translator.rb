@@ -12,6 +12,7 @@ def load_library(emoticonsFile)
       english.each do |n|
         if n == l
           emoticonsSorted['get_meaning'][n] = english
+        end
         if n == 0
           emoticonsSorted['get_emoticon'][n] = n+1
         end
