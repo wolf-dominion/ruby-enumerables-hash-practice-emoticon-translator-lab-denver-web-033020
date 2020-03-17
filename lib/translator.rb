@@ -23,7 +23,7 @@ def get_japanese_emoticon(emoticonsFile, eEmoticon)
   sortedFile['get_emoticon'][eEmoticon]
   
   if !sortedFile['get_emoticon'][eEmoticon]
-    return "Sorry, none"
+    return "Sorry, that emoticon was not found"
   end
 
 end
