@@ -18,11 +18,8 @@ end
 
 def get_japanese_emoticon(emoticonsSorted, eEmoticon)
   
-  result = emoticonsSorted.find |n| 
-    n = eEmoticon
-  end
-  puts result
-  result
+return emoticonsSorted[eEmoticon]
+
 end
 
 def get_english_meaning(emoticonsSorted, jEmoticon)
