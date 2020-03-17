@@ -18,7 +18,7 @@ def load_library(emoticonsFile)
         end
       end
   end
-
+  pp emoticonsSorted
   emoticonsSorted
   
 end
