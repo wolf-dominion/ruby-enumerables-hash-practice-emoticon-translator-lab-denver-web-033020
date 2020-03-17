@@ -35,6 +35,6 @@ def get_english_meaning(emoticonsFile, jEmoticon)
     return "Sorry, that emoticon was not found"
   end
   
-  sortedFile['get_emoticon'][jEmoticon]
+  sortedFile['get_meaning'][jEmoticon]
   
 end
