@@ -22,6 +22,6 @@ return emoticonsSorted['get_emoticont'][eEmoticon]
 
 end
 
-def get_english_meaning(emoticonsSorted, jEmoticon)
+def get_english_meaning(emoticonsFile, jEmoticon)
   
 end
