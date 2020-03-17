@@ -19,6 +19,8 @@ def load_library(emoticonsFile)
       end
   end
 
+  emoticonsSorted
+  
 end
 
 def get_japanese_emoticon
