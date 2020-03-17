@@ -5,6 +5,8 @@ require 'pp'
 def load_library(emoticonsFile)
   
   library = YAML.load_file(emoticonsFile)
+  
+  pp library
 
 end
 
