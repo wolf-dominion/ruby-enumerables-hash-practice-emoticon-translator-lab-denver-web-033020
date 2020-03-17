@@ -11,7 +11,7 @@ def load_library(emoticonsFile)
   pp emoticonsSorted
   
     library.each do |english, emoHash|
-      puts "english is: #{english} and emo is #{emoHash}"
+      pp english
       english.each do |n|
         if n == l
           emoticonsSorted['get_meaning'][n] = english
