@@ -8,18 +8,12 @@ def load_library(emoticonsFile)
   
   emoticonsSorted = {'get_meaning' => {}, 'get_emoticon' => {}}
   
-  pp emoticonsSorted
-  
     library.each do |english, emoHash|
-      pp english
-      english.each do |n|
-        if n == l
-          emoticonsSorted['get_meaning'][n] = english
-        end
-        if n == 0
+       
+          emoticonsSorted['get_meaning'][emoHash[1]] = english
+       
+        
           emoticonsSorted['get_emoticon'][n] = n+1
-        end
-      end
     end
   pp emoticonsSorted
   emoticonsSorted
