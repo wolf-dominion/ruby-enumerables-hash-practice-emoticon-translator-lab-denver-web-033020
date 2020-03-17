@@ -25,7 +25,6 @@ def get_japanese_emoticon(emoticonsFile, eEmoticon)
   end
   
   sortedFile['get_emoticon'][eEmoticon]
-  
 end
 
 def get_english_meaning(emoticonsFile, jEmoticon)
