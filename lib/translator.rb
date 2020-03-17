@@ -4,7 +4,8 @@ require 'pp'
 
 def load_library(emoticonsFile)
   
-  YAML.load(emoticonsFile)
+  library = YAML.load_file('emoticonsFile.yml')
+  
 end
   
   return emoticonHash
