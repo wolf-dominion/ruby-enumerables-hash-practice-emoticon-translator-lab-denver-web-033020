@@ -16,12 +16,12 @@ def load_library(emoticonsFile)
   emoticonsSorted
 end
 
-def get_japanese_emoticon(filePath, emoticon)
+def get_japanese_emoticon(filePath, jEmoticon)
   
   
   
 end
 
-def get_english_meaning
+def get_english_meaning(filePath, eEmoticon)
   
 end
