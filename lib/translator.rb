@@ -20,7 +20,7 @@ def get_japanese_emoticon(emoticonsFile, eEmoticon)
   
   sortedFile = load_library(emoticonsFile)
   
-  puts sortedFile['get_emoticont'][eEmoticon]
+  puts sortedFile['get_emoticon'][eEmoticon]
 
 end
 
