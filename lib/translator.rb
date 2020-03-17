@@ -18,7 +18,9 @@ end
 
 def get_japanese_emoticon(emoticonsFile, eEmoticon)
   
-return emoticonsSorted['get_emoticont'][eEmoticon]
+  sortedFile = load_library(emoticonsFile)
+  
+return sortedFile['get_emoticont'][eEmoticon]
 
 end
 
