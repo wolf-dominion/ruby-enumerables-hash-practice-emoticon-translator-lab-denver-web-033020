@@ -16,8 +16,7 @@ def load_library(emoticonsFile)
        
           emoticonsSorted['get_emoticon'][emoHash[0]] = emoHash[1]
     end
-  pp emoticonsSorted
-  emoticonsSorted
+
   
 end
 
