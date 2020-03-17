@@ -5,9 +5,7 @@ require 'pp'
 def load_library(emoticonsFile)
   
   emoticonHash = {'get_emoticon' =>{}, 'get_meaning' => {}}
-  file = YAML.load_file(emoticonsFile)
-  
-    file
+  YAML.load_file(emoticonsFile)
   end
   
   return emoticonHash
