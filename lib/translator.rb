@@ -20,9 +20,7 @@ def get_japanese_emoticon(emoticonsFile, eEmoticon)
   
   sortedFile = load_library(emoticonsFile)
   
-  pp sortedFile
-  
-  return sortedFile['get_emoticont'][eEmoticon]
+  pp sortedFile['get_emoticont'][eEmoticon]
 
 end
 
