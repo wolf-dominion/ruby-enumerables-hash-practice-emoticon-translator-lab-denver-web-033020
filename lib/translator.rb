@@ -18,7 +18,7 @@ end
 
 def get_japanese_emoticon(emoticonsSorted, eEmoticon)
   
-return emoticonsSorted[eEmoticon]
+return emoticonsSorted['get_emoticont'][eEmoticon]
 
 end
 
