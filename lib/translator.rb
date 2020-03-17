@@ -19,7 +19,7 @@ def load_library(emoticonsFile)
           emoticonsSorted['get_emoticon'][n] = n+1
         end
       end
-  end
+    end
   pp emoticonsSorted
   emoticonsSorted
   
