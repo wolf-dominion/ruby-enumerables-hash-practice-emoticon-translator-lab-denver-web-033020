@@ -6,7 +6,9 @@ def load_library(emoticonsFile)
   
   library = YAML.load_file(emoticonsFile)
   
-  emoticonsSorted = {'get_meaning' => {}, 'get_emoticon' => {}}
+  emoticonsSorted = {'get_meaning' => {'hello'=>12}, 'get_emoticon' => {}}
+  
+  pp emoticonsSorted['get_meaning']
   
     library.each do |english, emoHash|
        
